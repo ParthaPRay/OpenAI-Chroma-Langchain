@@ -71,3 +71,5 @@ References
 1. https://www.youtube.com/watch?v=tXnpnnA4D5A&ab_channel=PythonAI
 
 2. https://gist.github.com/SandyLudosky/ceafa0a12fbf620c56034db3c877eae5
+
+3. https://en.wikipedia.org/wiki/Prompt_engineering
