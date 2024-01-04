@@ -2,7 +2,16 @@
 This repo contains an use case integration of OpenAI, Chroma and Langchain
 
 
-# LLM
+In simpler terms, prompts used in language models like GPT often include a few examples to guide the model, known as "few-shot" learning. To make these prompts more relevant, examples can be automatically pulled from a database using a special process called document retrieval. This often involves using a vector database.
+
+Here's how it works: When you have a question (query), a document retriever tool searches for the most relevant documents. It does this by converting both your question and the documents into mathematical representations called vectors. The documents whose vectors are closest to your query's vector in a mathematical space (measured using something called Euclidean norm) are considered the most relevant.
+
+Once the relevant documents are retrieved, the language model (like GPT) uses both your original question and the information from these documents to generate an answer. This approach is particularly useful for getting information that is unique, constantly changing, or was not included when the model was initially trained or fine-tuned.
+
+![image](https://github.com/ParthaPRay/OpenAI-Chroma-Langchain/assets/1689639/a3750b42-d0c7-4324-996d-cb643cc989c9)
+
+
+# LLM Used
 
 **gpt-3.5-turbo-instruct**
 
