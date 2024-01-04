@@ -41,13 +41,19 @@ os.environ['OPENAI_API_KEY'] = 'ENTER YOUR API KEY'
 
 # Libraries
 
-langchain
-h11 
-httpcore 
-httpx
-openai
-sentence-transformers
-chromadb
+* langchain
+
+* h11 
+
+*httpcore 
+
+* httpx
+
+* openai
+
+* sentence-transformers
+
+* chromadb
 
 
 
